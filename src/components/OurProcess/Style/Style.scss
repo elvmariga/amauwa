@@ -1,0 +1,32 @@
+.ourProcess {
+    
+    display: grid;
+        gap: 1.5rem;
+        background-color: #1E5F08;
+        background-image: url(../Assests/bg.png);
+        background-repeat: no-repeat;
+        background-position: left bottom;
+
+        .ourProcessContent{
+            width: 80%;
+            margin: auto;
+            
+            .title{
+                color: #FFFFFF;
+                display: grid;
+                justify-content: flex-end;
+               
+                
+                h1{
+                    text-align: right;
+                    width: 100%;
+                    margin-bottom: 0;
+                }
+            }
+            .card{
+                display: grid;
+                gap: 1rem;
+                margin-top: 2rem;
+            }
+        }
+}

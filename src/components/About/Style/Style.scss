@@ -1,0 +1,39 @@
+.about{
+    background-color: #1E5F08 ;
+    min-height: 50vh;
+    position: relative;
+    display: grid;
+    background-image: url(../Assests/Potted\ Plant.png);
+        background-repeat: no-repeat;
+        background-position: right center;
+    
+
+    .introBanner{
+        background-color: #FFFFFF;
+        position: absolute;
+        // margin-top: -50px;
+        min-height: 20vh;
+        border-radius:  60px 0;
+        padding: 12px;
+        width: 90%;
+        justify-self: center;
+        margin: -50px auto 0 auto;
+        h1{
+            color: #184E06;
+           
+        }
+        p{
+            color: rgb(0, 0, 0, 0.7)
+            ;
+        }
+    }
+    .aboutdetails{
+        width: 80%;
+        margin: 200px auto 0 auto;
+        color: #F2F2F2;
+        h1{
+            margin-bottom: 0;
+        }
+       
+    }
+}

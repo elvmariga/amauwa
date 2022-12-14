@@ -1,0 +1,27 @@
+.card .cardContent {
+  margin: 0 auto;
+  width: 80%;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.card .cardContent .cardDetail {
+  background-color: rgba(132, 244, 93, 0.5);
+  padding: 1rem;
+  border-radius: 8px;
+  min-width: 250px;
+  max-width: 251px;
+  color: #FFFFFF;
+}
+.card .cardContent .cardDetail .iconRow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  position: relative;
+}
+.card .cardContent .cardDetail .iconRow .icon {
+  position: absolute;
+  left: -50px;
+}/*# sourceMappingURL=style.css.map */
