@@ -1,11 +1,15 @@
-.whatWeOffer {
+.cleaning {
+background-color: #1E5F08;
+    min-height: 50vh;
+    position: relative;
+    display: grid;
     background-image: url(../Assests/bg.png);
     background-repeat: no-repeat;
     background-position: left center;
-   
+    color: #FFFFFF;
     // font-family: 'Source Sans Pro', sans-serif;
 
-    .whatWeOfferContent {
+    .cleaningContent {
         width: 80%;
         margin: 0 auto;
         .title{

@@ -5,6 +5,7 @@ import About from './components/About/About';
 import Card from './components/Card/Card';
 import OurProcess from './components/OurProcess/OurProcess';
 import WhatWeOffer from './components/WhatWeOffer/WhatWeOffer';
+import Cleaning from './components/Cleaning/Cleaning';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       
       <OurProcess/>
       <WhatWeOffer/>
+      <Cleaning/>
     </div>
   );
 }

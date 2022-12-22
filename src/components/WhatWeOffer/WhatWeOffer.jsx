@@ -37,16 +37,16 @@ const WhatWeOffer = () => (
             <img src={Tick} alt="checkbox" /> Potting
           </li>
           <li>
-            <img src={Tick} alt="checkbox" /> Potting
+            <img src={Tick} alt="checkbox" /> Designing baskets
           </li>
           <li>
-            <img src={Tick} alt="checkbox" /> Potting
+            <img src={Tick} alt="checkbox" /> Propagation
           </li>
           <li>
-            <img src={Tick} alt="checkbox" /> Potting
+            <img src={Tick} alt="checkbox" /> Budding
           </li>
           <li>
-            <img src={Tick} alt="checkbox" /> Potting
+            <img src={Tick} alt="checkbox" /> Cutting edges
           </li>
         </ul>
       </div>

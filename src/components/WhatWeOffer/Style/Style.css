@@ -2,6 +2,7 @@
   background-image: url(../Assests/bg.png);
   background-repeat: no-repeat;
   background-position: left center;
+  padding-bottom: 2rem;
 }
 .whatWeOffer .whatWeOfferContent {
   width: 80%;

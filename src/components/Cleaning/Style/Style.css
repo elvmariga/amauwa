@@ -1,19 +1,24 @@
-.whatWeOffer {
+.cleaning {
+  background-color: #1E5F08;
+  min-height: 50vh;
+  position: relative;
+  display: grid;
   background-image: url(../Assests/bg.png);
   background-repeat: no-repeat;
   background-position: left center;
+  color: #FFFFFF;
 }
-.whatWeOffer .whatWeOfferContent {
+.cleaning .cleaningContent {
   width: 80%;
   margin: 0 auto;
 }
-.whatWeOffer .whatWeOfferContent .title {
+.cleaning .cleaningContent .title {
   margin-bottom: 1rem;
 }
-.whatWeOffer .whatWeOfferContent .title h1 {
+.cleaning .cleaningContent .title h1 {
   margin-bottom: 0;
 }
-.whatWeOffer .whatWeOfferContent .offerCard {
+.cleaning .cleaningContent .offerCard {
   color: white;
   text-align: center;
   padding: 1rem;
@@ -27,15 +32,15 @@
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../Assests/frontyard.png);
   background-size: cover;
 }
-.whatWeOffer .whatWeOfferContent .offerCard h4 {
+.cleaning .cleaningContent .offerCard h4 {
   margin: 0;
   font-size: 1.2rem;
   text-align: center;
 }
-.whatWeOffer .whatWeOfferContent .other-services ul {
+.cleaning .cleaningContent .other-services ul {
   padding: 0;
 }
-.whatWeOffer .whatWeOfferContent .other-services ul li {
+.cleaning .cleaningContent .other-services ul li {
   list-style: none;
   display: flex;
   align-items: center;

@@ -1,16 +1,16 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import  './Style/Style.css';
-import Line2 from "../Line2/Line";
+import Line from "../Line/Line";
 import Tick from './Assests/tick.svg'
 import GetQuote from '../GetQuote/GetQuote';
 
-const WhatWeOffer = () => (
-  <div className="whatWeOffer">
-    <div className="whatWeOfferContent">
+const Cleaning = () => (
+  <div className="cleaning">
+    <div className="cleaningContent">
       <div className="title">
-        <h1>Landscaping Services</h1>
-        <Line2 />
+        <h1>Cleaning Services</h1>
+        <Line />
       </div>
       <div className="cards">
         <div className="offerCard">
@@ -57,8 +57,8 @@ const WhatWeOffer = () => (
   </div>
 );
 
-WhatWeOffer.propTypes = {};
+Cleaning.propTypes = {};
 
-WhatWeOffer.defaultProps = {};
+Cleaning.defaultProps = {};
 
-export default WhatWeOffer;
+export default Cleaning;
