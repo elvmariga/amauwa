@@ -8,6 +8,7 @@ import WhatWeOffer from './components/WhatWeOffer/WhatWeOffer';
 import Cleaning from './components/Cleaning/Cleaning';
 import Gallery from './components/Gallery/Gallery';
 import Shop from './components/Shop/Shop';
+import Testimony from './components/Testimony/Testimony';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
       {/* <Cleaning/> */}
       <Gallery/>
       <Shop/>
+      <Testimony/>
       
     </div>
   );
