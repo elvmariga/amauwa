@@ -5,8 +5,9 @@
   display: grid;
   background-image: url(../Assests/bg.png);
   background-repeat: no-repeat;
-  background-position: left center;
+  background-position: right center;
   color: #FFFFFF;
+  padding-bottom: 2rem;
 }
 .cleaning .cleaningContent {
   width: 80%;

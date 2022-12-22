@@ -6,6 +6,8 @@ import Card from './components/Card/Card';
 import OurProcess from './components/OurProcess/OurProcess';
 import WhatWeOffer from './components/WhatWeOffer/WhatWeOffer';
 import Cleaning from './components/Cleaning/Cleaning';
+import Gallery from './components/Gallery/Gallery';
+import Shop from './components/Shop/Shop';
 
 
 function App() {
@@ -16,7 +18,10 @@ function App() {
       
       <OurProcess/>
       <WhatWeOffer/>
-      <Cleaning/>
+      {/* <Cleaning/> */}
+      <Gallery/>
+      <Shop/>
+      
     </div>
   );
 }

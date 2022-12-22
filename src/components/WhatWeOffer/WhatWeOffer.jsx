@@ -4,6 +4,7 @@ import  './Style/Style.css';
 import Line2 from "../Line2/Line";
 import Tick from './Assests/tick.svg'
 import GetQuote from '../GetQuote/GetQuote';
+import Gallery from '../Gallery/Gallery';
 
 const WhatWeOffer = () => (
   <div className="whatWeOffer">
@@ -54,6 +55,7 @@ const WhatWeOffer = () => (
         <GetQuote />
       </div>
     </div>
+    
   </div>
 );
 

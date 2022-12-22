@@ -1,0 +1,30 @@
+.gallery .title {
+  color: #FFFFFF;
+  background-color: #184E06;
+}
+.gallery .title .title-content {
+  padding: 2rem;
+}
+.gallery .title .title-content h1 {
+  width: 80%;
+  margin-inline: auto;
+  margin: 0;
+}
+.gallery .images {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 8px;
+}
+.gallery .images img {
+  width: 100%;
+  height: auto;
+}
+.gallery .view-more {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+.gallery .view-more a {
+  color: #184E06;
+  font-weight: 600;
+}/*# sourceMappingURL=style.css.map */
