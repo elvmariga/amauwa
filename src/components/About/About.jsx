@@ -1,4 +1,5 @@
 import React from 'react';
+import GetQuote from '../GetQuote/GetQuote';
 import Line from '../Line/Line';
 import './Style/Style.css'
 
@@ -12,7 +13,7 @@ const About = () => {
           Amauwa offers the best landscaping services in Nairobi. We aim to
           leave your compound beautiful and with a long-lasting impact.
         </p>
-        <button>Get Quote</button>
+        <GetQuote/>
       </div>
       <div className="aboutdetails">
         <h1>About Amauwa Landscaping</h1>

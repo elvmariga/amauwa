@@ -4,7 +4,7 @@ const Line = () => {
   return (
     <div
       style={{
-        backgroundColor: "rgba(132, 244, 93, 0.5)",
+        backgroundColor: "#184E06",
         width: "20%",
         height: "6px",
       }}
