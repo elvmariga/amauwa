@@ -23,4 +23,11 @@
   display: grid;
   gap: 1rem;
   margin-top: 2rem;
+}
+@media screen and (min-width: 600px) {
+  .ourProcess .ourProcessContent .card {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
 }/*# sourceMappingURL=Style.css.map */

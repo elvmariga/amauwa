@@ -16,36 +16,50 @@
             margin-bottom: 1rem;
         }
 
+       .cards{
+
+        @media screen and (min-width:600px) {
+                display: flex;
+                justify-content: space-between;
+                margin-top: 2rem;
+                flex-wrap: wrap;
+            }
         .offerCard {
-            
-            color: white;
-            text-align: center;
-            padding: 1rem;
-            width: 250px;
-            margin: 0 auto;
-            // max-width: 252px;
-            height: 200px;
-            display: grid;
-            align-items: center;
-            margin-bottom: 1rem;
-            border-radius: 4px;
-            background:
+        
+                color: white;
+                text-align: center;
+                padding: 1rem;
+                width: 80%;
+                margin: 0 auto;
+                // max-width: 252px;
+                height: 200px;
+                display: grid;
+                align-items: center;
+                margin-bottom: 1rem;
+                border-radius: 4px;
+                background:
                     linear-gradient(rgba(0, 0, 0, 0.5),
                         rgba(0, 0, 0, 0.5)),
                     url(../Assests/frontyard.png);
                 background-size: cover;
-
-            //   justify-content: center;
-            h4 {
-                // text-transform: uppercase;
-                margin: 0;
-                font-size: 1.2rem;
-                // white-space: nowrap;
-                text-align: center;
+                gap: 1rem;
+        
+                @media screen and (min-width:600px) {
+                        width: 20%;
+                    }
+        
+                //   justify-content: center;
+                h4 {
+                    // text-transform: uppercase;
+                    margin: 0;
+                    font-size: 1.2rem;
+                    // white-space: nowrap;
+                    text-align: center;
+                }
+        
+        
             }
-
-            
-        }
+       }
         .other-services{
             ul{
                 padding: 0;

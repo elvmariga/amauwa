@@ -3,6 +3,7 @@ import './Style/style.css'
 import Line from '../Line/Line'
 import ClientCard from './ClientCard'
 import pic from './Assets/client.png'
+import Contact from '../Contact/Contact'
 
 const Testimony = () => {
   return (
@@ -41,6 +42,7 @@ const Testimony = () => {
           <hr />
         </div>
       </div>
+      {/* <Contact/> */}
     </div>
   );
 }

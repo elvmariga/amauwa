@@ -14,8 +14,14 @@
   border-radius: 60px 0;
   padding: 12px;
   width: 90%;
-  justify-self: center;
   margin: -50px auto 0 auto;
+}
+@media screen and (min-width: 600px) {
+  .about .introBanner {
+    width: 40%;
+    justify-self: flex-start;
+    margin: -100px auto 0 14rem;
+  }
 }
 .about .introBanner h1 {
   color: #184E06;
@@ -27,6 +33,11 @@
   width: 80%;
   margin: 200px auto 0 auto;
   color: #F2F2F2;
+}
+@media screen and (min-width: 600px) {
+  .about .aboutdetails {
+    margin-top: 150px;
+  }
 }
 .about .aboutdetails h1 {
   margin-bottom: 0;

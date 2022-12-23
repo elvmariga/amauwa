@@ -14,11 +14,19 @@
 .whatWeOffer .whatWeOfferContent .title h1 {
   margin-bottom: 0;
 }
-.whatWeOffer .whatWeOfferContent .offerCard {
+@media screen and (min-width: 600px) {
+  .whatWeOffer .whatWeOfferContent .cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+  }
+}
+.whatWeOffer .whatWeOfferContent .cards .offerCard {
   color: white;
   text-align: center;
   padding: 1rem;
-  width: 250px;
+  width: 80%;
   margin: 0 auto;
   height: 200px;
   display: grid;
@@ -27,8 +35,14 @@
   border-radius: 4px;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../Assests/frontyard.png);
   background-size: cover;
+  gap: 1rem;
 }
-.whatWeOffer .whatWeOfferContent .offerCard h4 {
+@media screen and (min-width: 600px) {
+  .whatWeOffer .whatWeOfferContent .cards .offerCard {
+    width: 20%;
+  }
+}
+.whatWeOffer .whatWeOfferContent .cards .offerCard h4 {
   margin: 0;
   font-size: 1.2rem;
   text-align: center;

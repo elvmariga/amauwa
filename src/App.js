@@ -9,6 +9,7 @@ import Cleaning from './components/Cleaning/Cleaning';
 import Gallery from './components/Gallery/Gallery';
 import Shop from './components/Shop/Shop';
 import Testimony from './components/Testimony/Testimony';
+import Contact from './components/Contact/Contact';
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
       <Gallery/>
       <Shop/>
       <Testimony/>
+      <Contact/>
       
     </div>
   );
