@@ -3,29 +3,32 @@
     background-repeat: no-repeat;
     background-position: left center;
     padding-bottom: 2rem;
-   
+
     // font-family: 'Source Sans Pro', sans-serif;
 
     .whatWeOfferContent {
         width: 80%;
         margin: 0 auto;
-        .title{
-            h1{
+
+        .title {
+            h1 {
                 margin-bottom: 0;
             }
+
             margin-bottom: 1rem;
         }
 
-       .cards{
+        .cards {
 
-        @media screen and (min-width:600px) {
+            @media screen and (min-width:600px) {
                 display: flex;
                 justify-content: space-between;
                 margin-top: 2rem;
                 flex-wrap: wrap;
             }
-        .offerCard {
-        
+
+            .offerCard {
+
                 color: white;
                 text-align: center;
                 padding: 1rem;
@@ -37,17 +40,17 @@
                 align-items: center;
                 margin-bottom: 1rem;
                 border-radius: 4px;
-                background:
-                    linear-gradient(rgba(0, 0, 0, 0.5),
-                        rgba(0, 0, 0, 0.5)),
-                    url(../Assests/frontyard.png);
-                background-size: cover;
+
                 gap: 1rem;
-        
-                @media screen and (min-width:600px) {
-                        width: 20%;
+
+                &:hover {
+                        transform: scale(1.1, 1.1);
                     }
-        
+
+                @media screen and (min-width:600px) {
+                    width: 20%;
+                }
+
                 //   justify-content: center;
                 h4 {
                     // text-transform: uppercase;
@@ -56,15 +59,51 @@
                     // white-space: nowrap;
                     text-align: center;
                 }
-        
-        
+
+
             }
-       }
-        .other-services{
-            ul{
+
+
+            .card1 {
+                background:
+                    linear-gradient(rgba(0, 0, 0, 0.5),
+                        rgba(0, 0, 0, 0.5)),
+                    url(../Assests/frontyard.png);
+                background-size: cover;
+            }
+
+            .card2 {
+                background:
+                    linear-gradient(rgba(0, 0, 0, 0.5),
+                        rgba(0, 0, 0, 0.5)),
+                    url(../Assests/card2.png);
+                background-size: cover;
+            }
+
+            .card3 {
+                background:
+                    linear-gradient(rgba(0, 0, 0, 0.5),
+                        rgba(0, 0, 0, 0.5)),
+                    url(../Assests/interior.png);
+                background-size: cover;
+
+            }
+
+            .card4 {
+                background:
+                        linear-gradient(rgba(0, 0, 0, 0.5),
+                            rgba(0, 0, 0, 0.5)),
+                        url(../Assests/card4.png);
+                    background-size: cover;
+            }
+
+        }
+
+        .other-services {
+            ul {
                 padding: 0;
-            
-                li{
+
+                li {
                     list-style: none;
                     display: flex;
                     align-items: center;

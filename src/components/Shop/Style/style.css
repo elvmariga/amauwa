@@ -1,5 +1,5 @@
 .shop .title {
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
 }
 .shop .title .titlecontent {
@@ -16,6 +16,13 @@
 .shop .cards {
   display: flex;
   overflow-x: scroll;
+}
+@media screen and (min-width: 600px) {
+  .shop .cards {
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+  }
 }
 
 .product {

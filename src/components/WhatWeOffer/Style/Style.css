@@ -33,9 +33,10 @@
   align-items: center;
   margin-bottom: 1rem;
   border-radius: 4px;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../Assests/frontyard.png);
-  background-size: cover;
   gap: 1rem;
+}
+.whatWeOffer .whatWeOfferContent .cards .offerCard:hover {
+  transform: scale(1.1, 1.1);
 }
 @media screen and (min-width: 600px) {
   .whatWeOffer .whatWeOfferContent .cards .offerCard {
@@ -46,6 +47,22 @@
   margin: 0;
   font-size: 1.2rem;
   text-align: center;
+}
+.whatWeOffer .whatWeOfferContent .cards .card1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../Assests/frontyard.png);
+  background-size: cover;
+}
+.whatWeOffer .whatWeOfferContent .cards .card2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../Assests/card2.png);
+  background-size: cover;
+}
+.whatWeOffer .whatWeOfferContent .cards .card3 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../Assests/interior.png);
+  background-size: cover;
+}
+.whatWeOffer .whatWeOfferContent .cards .card4 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../Assests/card4.png);
+  background-size: cover;
 }
 .whatWeOffer .whatWeOfferContent .other-services ul {
   padding: 0;

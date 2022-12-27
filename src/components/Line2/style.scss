@@ -1,0 +1,11 @@
+.line2 {
+
+
+    background-color: #184E06;
+        width: 20%;
+        height: 6px;
+        @media screen and (min-width:600px) {
+            width: 8%;
+        }
+
+}

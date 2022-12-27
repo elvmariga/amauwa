@@ -1,0 +1,10 @@
+.line {
+  background-color: rgba(132, 244, 93, 0.5);
+  width: 20%;
+  height: 6px;
+}
+@media screen and (min-width: 600px) {
+  .line {
+    width: 8%;
+  }
+}/*# sourceMappingURL=style.css.map */

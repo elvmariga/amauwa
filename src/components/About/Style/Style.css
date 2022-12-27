@@ -1,44 +1,69 @@
 .about {
   background-color: #1E5F08;
-  min-height: 50vh;
   position: relative;
-  display: grid;
   background-image: url(../Assests/Potted\ Plant.png);
   background-repeat: no-repeat;
   background-position: right center;
 }
-.about .introBanner {
+.about .about-content {
+  width: 80%;
+  margin: 0 auto;
+  display: grid;
+}
+.about .about-content .introBanner {
   background-color: #FFFFFF;
-  position: absolute;
   min-height: 20vh;
   border-radius: 60px 0;
   padding: 12px;
-  width: 90%;
-  margin: -50px auto 0 auto;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-top: -100px;
 }
 @media screen and (min-width: 600px) {
-  .about .introBanner {
-    width: 40%;
-    justify-self: flex-start;
-    margin: -100px auto 0 14rem;
+  .about .about-content .introBanner {
+    width: 50%;
+    justify-self: start;
   }
 }
-.about .introBanner h1 {
+.about .about-content .introBanner h1 {
   color: #184E06;
+  font-size: 2rem;
 }
-.about .introBanner p {
+@media screen and (min-width: 600px) {
+  .about .about-content .introBanner h1 {
+    font-size: 2.5rem;
+  }
+}
+.about .about-content .introBanner p {
   color: rgba(0, 0, 0, 0.7);
+  font-size: 1.2rem;
+  font-weight: 500;
 }
-.about .aboutdetails {
-  width: 80%;
-  margin: 200px auto 0 auto;
+@media screen and (min-width: 600px) {
+  .about .about-content .introBanner p {
+    font-size: 1.5rem;
+  }
+}
+.about .about-content .aboutdetails {
+  margin: 2rem auto 0 auto;
   color: #F2F2F2;
 }
+.about .about-content .aboutdetails h1 {
+  margin-bottom: 0;
+  font-size: 2rem;
+}
 @media screen and (min-width: 600px) {
-  .about .aboutdetails {
-    margin-top: 150px;
+  .about .about-content .aboutdetails h1 {
+    font-size: 2.5rem;
   }
 }
-.about .aboutdetails h1 {
-  margin-bottom: 0;
+.about .about-content .aboutdetails p {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+@media screen and (min-width: 600px) {
+  .about .about-content .aboutdetails p {
+    font-size: 1.5rem;
+  }
 }/*# sourceMappingURL=Style.css.map */

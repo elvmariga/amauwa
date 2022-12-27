@@ -14,16 +14,16 @@ const WhatWeOffer = () => (
         <Line2 />
       </div>
       <div className="cards">
-        <div className="offerCard">
+        <div className="offerCard card1">
           <h4>Frontyard Landscaping</h4>
         </div>
-        <div className="offerCard">
+        <div className="offerCard card2">
           <h4>Kitchen garden</h4>
         </div>
-        <div className="offerCard">
+        <div className="offerCard card3">
           <h4>Interior plants design</h4>
         </div>
-        <div className="offerCard">
+        <div className="offerCard card4">
           <h4>Garden maintenance</h4>
         </div>
       </div>
@@ -55,7 +55,6 @@ const WhatWeOffer = () => (
         <GetQuote />
       </div>
     </div>
-    
   </div>
 );
 

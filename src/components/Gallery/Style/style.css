@@ -4,10 +4,10 @@
 }
 .gallery .title .title-content {
   padding: 2rem;
-}
-.gallery .title .title-content h1 {
   width: 80%;
   margin-inline: auto;
+}
+.gallery .title .title-content h1 {
   margin: 0;
 }
 .gallery .images {

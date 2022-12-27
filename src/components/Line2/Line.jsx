@@ -1,13 +1,10 @@
-import React from 'react'
+import React from 'react';
+import './style.css'
 
 const Line = () => {
   return (
-    <div
-      style={{
-        backgroundColor: "#184E06",
-        width: "20%",
-        height: "6px",
-      }}
+    <div className='line2'
+     
     ></div>
   );
 }

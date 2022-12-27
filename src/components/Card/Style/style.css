@@ -10,8 +10,8 @@
   background-color: rgba(132, 244, 93, 0.5);
   padding: 1rem;
   border-radius: 8px;
-  min-width: 250px;
-  max-width: 251px;
+  width: 300px;
+  height: 200px;
   color: #FFFFFF;
 }
 .card .cardContent .cardDetail .iconRow {
@@ -24,4 +24,15 @@
 .card .cardContent .cardDetail .iconRow .icon {
   position: absolute;
   left: -50px;
+}
+.card .cardContent .cardDetail .iconRow h3 {
+  font-size: 1.5em;
+  margin: 8px 0;
+  font-weight: 600;
+}
+.card .cardContent .cardDetail p {
+  font-weight: 500;
+}
+.card .cardContent .cardDetail h2 {
+  font-weight: 300;
 }/*# sourceMappingURL=style.css.map */

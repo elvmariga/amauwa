@@ -1,5 +1,6 @@
 .card{
    
+   
     .cardContent{
          margin: 0 auto;
     width: 80%;
@@ -12,8 +13,8 @@
             background-color: rgba(132, 244, 93, 0.5);
             padding: 1rem;
             border-radius: 8px;
-            min-width: 250px;
-            max-width: 251px;
+           width: 300px;
+           height: 200px;
             // display: grid;
             // grid-template-rows: 1fr 1fr 1fr;
             color: #FFFFFF;
@@ -31,6 +32,17 @@
                         left: -50px;
                         
                     }
+                    h3{
+                        font-size: 1.5em;
+                        margin: 8px 0;
+                        font-weight: 600;
+                    }
+            }
+            p{
+                font-weight: 500;
+            }
+            h2{
+                font-weight: 300;
             }
         }
     }

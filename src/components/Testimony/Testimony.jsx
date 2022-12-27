@@ -39,8 +39,8 @@ const Testimony = () => {
               details="Some details about the image"
             />
           </div>
-          <hr />
         </div>
+        <hr />
       </div>
       {/* <Contact/> */}
     </div>

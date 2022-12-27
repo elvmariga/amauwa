@@ -3,7 +3,7 @@ const ClientCard = (props) => {
 
   return (
     <div className="client-card">
-      <div>
+      <div className="image">
         <img src={image} alt={title} />
       </div>
       <div>
