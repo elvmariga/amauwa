@@ -1,4 +1,74 @@
-.navbar{
-    background-image: url(../Assests/bg.svg);
-    min-height: 40vh;
+// .navbar{
+//    width: 80%;
+//    margin: 0 auto;
+//    display: flex;
+// justify-content: space-between;
+// padding-top: 1rem ;
+
+
+
+
+// }
+
+.navbar {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding-top: 1rem;
+
+    .toggle-button {
+        display: none;
+    }
+
+      
+.links{
+
+    ul {
+            display: flex;
+            justify-content: space-between;
+            gap: 2rem;
+    
+            a {
+                color: #FFFFFF;
+                font-size: 1.2rem;
+                font-weight: 600;
+                text-decoration: none;
+            }
+        }
 }
+
+
+
+    @media (max-width: 600px) {
+        .toggle-button {
+            display: block;
+        }
+
+        .links {
+            display: none;
+            ul{
+                display: grid;
+                gap: 1.2rem;
+               
+            }
+        }
+
+        .nav-open {
+            display: grid;
+            background-color: green;
+            // padding: 1rem;
+           width: 60%;
+           margin: 0 auto;
+            border-radius: 8px;
+            z-index: 2;
+            
+        }
+
+                .nav-open .toggle-button {
+                    display: none;
+                }
+    }
+}
+ 

@@ -6,8 +6,10 @@ import Tick from './Assests/tick.svg'
 import GetQuote from '../GetQuote/GetQuote';
 import Gallery from '../Gallery/Gallery';
 
-const WhatWeOffer = () => (
-  <div className="whatWeOffer">
+const WhatWeOffer = () => {
+return (
+  
+  <div className="whatWeOffer" id="whatweoffer">
     <div className="whatWeOfferContent">
       <div className="title">
         <h1>Landscaping Services</h1>
@@ -58,6 +60,7 @@ const WhatWeOffer = () => (
   </div>
 );
 
+};
 WhatWeOffer.propTypes = {};
 
 WhatWeOffer.defaultProps = {};

@@ -1,10 +1,34 @@
-import React from "react";
+import React, {useRef} from "react";
+import emailjs from '@emailjs/browser';
 import './Style/style.css';
 
 
 const Contact = () => {
+
+    const form = useRef();
+
+    const sendEmail = (e) => {
+      e.preventDefault();
+
+      emailjs
+        .sendForm(
+          "service_asrhjsp",
+          "template_tp6c95p",
+          form.current,
+          "9byfXctYyiSASCu0T"
+        )
+        .then(
+          (result) => {
+           alert("Sent succeful");
+          },
+          (error) => {
+            alert("error occured");
+          }
+        );
+    };
+
   return (
-    <div className="contact">
+    <div className="contact" id="contact">
       <div className="contact-content">
         <div className="contact-details">
           <h2>Contact Us</h2>
@@ -39,33 +63,37 @@ const Contact = () => {
           </div>
         </div>
         <div className="contact-form">
-          <form action="">
+          <form action="" ref={form} onSubmit={sendEmail}>
             <h2>Reach Us</h2>
             <p>
               Have a question or want to request a quote, send us a message
               below.
             </p>
             <div className="inputs">
-              <input type="text" name="Name" id="name" placeholder="Full Name" />
-            <input
-              type="tel"
-              name="phone"
-              id="phone "
-              placeholder="Phone Number"
-            />
-            <input type="text" name="Topic" id="topic" placeholder="Topic" />
-            <textarea
-              name="message"
-              id="message"
-              cols="30"
-              rows="10"
-              placeholder="Message"
-            ></textarea>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Full Name"
+              />
+              <input
+                type="tel"
+                name="phone"
+                id="phone "
+                placeholder="Phone Number"
+              />
+              <input type="email" name="email" id="" placeholder="Email" />
+              <input type="text" name="topic" id="topic" placeholder="Topic" />
+              <textarea
+                name="message"
+                id="message"
+                cols="30"
+                rows="10"
+                placeholder="Message"
+              ></textarea>
 
-            <input className="submit" type="submit" value=" Send Message" />
+              <input className="submit" type="submit" value=" Send Message" />
             </div>
-            
-            
           </form>
         </div>
       </div>

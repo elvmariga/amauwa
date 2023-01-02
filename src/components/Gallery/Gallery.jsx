@@ -10,7 +10,7 @@ import Line from '../Line/Line';
 
 const Gallery = () => {
   return (
-    <div className="gallery">
+    <div className="gallery" id="gallery">
       <div className="title">
         <div className="title-content">
           <h1>Our Gallery</h1>
@@ -27,7 +27,7 @@ const Gallery = () => {
       </div>
 
       <div className="view-more">
-      <a href="http://">View more</a>
+        <a href="http://">View more</a>
       </div>
     </div>
   );

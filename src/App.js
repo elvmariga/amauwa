@@ -10,12 +10,14 @@ import Gallery from './components/Gallery/Gallery';
 import Shop from './components/Shop/Shop';
 import Testimony from './components/Testimony/Testimony';
 import Contact from './components/Contact/Contact';
+import Hero from './components/Hero/Hero';
 
 
 function App() {
   return (
     <div>
-      <Navbar/>
+   
+      <Hero/>
       <About/>
       
       <OurProcess/>
