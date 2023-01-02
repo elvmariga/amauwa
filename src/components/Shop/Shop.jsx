@@ -8,7 +8,7 @@ import pic2 from "./Assests/IMG-20220917-WA0004 3.png";
 
 const Shop = () => {
   return (
-    <div className="shop">
+    <div className="shop" id='ourshop'>
       <div className="title">
         <div className="titlecontent">
           <h1>Amauwa Plant Shop</h1>

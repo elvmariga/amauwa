@@ -5,7 +5,7 @@ import './Style/Style.css'
 
 const About = () => {
   return (
-    <div className="about">
+    <div className="about" id="about">
       <div className="about-content">
         <div className="introBanner">
           <h1 className="introTitle">Bringing Nature into Your Space</h1>
