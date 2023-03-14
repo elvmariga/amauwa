@@ -16,18 +16,17 @@ import Hero from './components/Hero/Hero';
 function App() {
   return (
     <div>
-   
-      <Hero/>
-      <About/>
-      
-      <OurProcess/>
-      <WhatWeOffer/>
+      <Hero />
+      <About />
+
+      <WhatWeOffer />
       {/* <Cleaning/> */}
-      <Gallery/>
-      <Shop/>
-      <Testimony/>
-      <Contact/>
-      
+
+      <Gallery />
+      <OurProcess />
+      <Shop />
+      <Testimony />
+      <Contact />
     </div>
   );
 }

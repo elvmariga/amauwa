@@ -1,5 +1,6 @@
 import React, {useRef} from "react";
 import emailjs from '@emailjs/browser';
+import swal from "sweetalert";
 import './Style/style.css';
 
 
@@ -7,25 +8,26 @@ const Contact = () => {
 
     const form = useRef();
 
-    const sendEmail = (e) => {
-      e.preventDefault();
+   const sendEmail = (e) => {
+     e.preventDefault();
 
-      emailjs
-        .sendForm(
-          "service_asrhjsp",
-          "template_tp6c95p",
-          form.current,
-          "9byfXctYyiSASCu0T"
-        )
-        .then(
-          (result) => {
-           alert("Sent succeful");
-          },
-          (error) => {
-            alert("error occured");
-          }
-        );
-    };
+     emailjs
+       .sendForm(
+         "service_y21xm5h",
+         "template_ce8aip9",
+         form.current,
+         "9byfXctYyiSASCu0T"
+       )
+       .then(
+         (result) => {
+           swal("Sent successful");
+           form.current.reset(); // Reset the form fields
+         },
+         (error) => {
+           swal("Error occurred");
+         }
+       );
+   };
 
   return (
     <div className="contact" id="contact">
@@ -33,7 +35,7 @@ const Contact = () => {
         <div className="contact-details">
           <h2>Contact Us</h2>
           <a href="tel:+">
-            <i className="fa-solid fa-phone fa-xl icon"></i> 070707
+            <i className="fa-solid fa-phone fa-xl icon"></i> +254 702 706 005
           </a>
           <a
             href="href=mailto:midlandprep17@gmail.com?subject=Inquiry&body=The%20body%20of%20the%20email"
@@ -41,7 +43,7 @@ const Contact = () => {
             rel="noopener noreferrer"
           >
             <i className="fa-regular fa-envelope fa-xl icon"></i>{" "}
-            amauwa@gmail.com
+            amauwacreatives@gmail.com
           </a>
           <a href="http://" target="_blank" rel="noopener noreferrer">
             <i class="fa-solid fa-location-dot fa-xl icon"></i> Location

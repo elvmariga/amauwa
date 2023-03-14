@@ -1,4 +1,6 @@
 .hero {
-  background-image: url(../Assests/bg.svg);
+  background-image: url(../Assests/banner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
   min-height: 40vh;
 }/*# sourceMappingURL=style.css.map */

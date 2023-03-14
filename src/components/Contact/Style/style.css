@@ -16,8 +16,6 @@
   .contact .contact-content {
     display: flex;
     justify-content: space-between;
-    min-width: 600px;
-    width: 50%;
   }
 }
 .contact .contact-content .contact-details {
@@ -79,7 +77,6 @@
   min-height: 30px;
 }
 .contact .contact-content .contact-form .inputs .submit {
-  width: -webkit-min-content;
   width: -moz-min-content;
   width: min-content;
   background-color: #184E06;

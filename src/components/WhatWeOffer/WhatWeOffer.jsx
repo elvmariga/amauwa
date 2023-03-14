@@ -8,7 +8,6 @@ import Gallery from '../Gallery/Gallery';
 
 const WhatWeOffer = () => {
 return (
-  
   <div className="whatWeOffer" id="whatweoffer">
     <div className="whatWeOfferContent">
       <div className="title">
@@ -32,8 +31,10 @@ return (
       <div className="other-services">
         <h2 className="other-service-title">Other Services</h2>
         <p className="other-service-details">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Transform your outdoor space into a lush paradise with our
+          comprehensive landscaping services. From design to maintenance, we
+          offer a wide range of services to help you achieve the garden of your
+          dreams. Check out our full list of other landscaping services below!
         </p>
         <ul>
           <li>

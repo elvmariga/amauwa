@@ -1,6 +1,6 @@
 import React from "react";
 import "./Style/style.css";
-import Logo from './Assests/logo.png'
+import Logo from './Assests/logo.svg'
 import { useState } from "react";
 import Menu from './Assests/menu.png';
 
@@ -53,11 +53,9 @@ const Navbar = () => {
           <a href="#gallery" onClick={handleClick}>
             Gallery
           </a>
-          <a href="#testimony" onClick={handleClick}>
-            Testimony
-          </a>
+         
           <a href="#contact" onClick={handleClick}>
-            Get Quote
+            Contact Us
           </a>
         </ul>
       </div>
