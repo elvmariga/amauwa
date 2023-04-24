@@ -5,7 +5,7 @@
 .gallery .title .title-content {
   padding: 2rem;
   width: 80%;
-  margin-inline: auto;
+  margin: auto;
 }
 .gallery .title .title-content h1 {
   margin: 0;

@@ -37,7 +37,7 @@ const Navbar = () => {
         src={Menu}
         onClick={toggleNav}
         className="toggle-button"
-         alt="icon"
+        alt="icon"
       />
       <div className={`links ${isNavOpen ? "nav-open" : "nav-closed"}`}>
         <ul>
@@ -53,8 +53,16 @@ const Navbar = () => {
           <a href="#gallery" onClick={handleClick}>
             Gallery
           </a>
-         
-          <a href="#contact" onClick={handleClick}>
+
+          <a
+            style={{
+              backgroundColor: "#184e06",
+              padding: "10px 4px",
+              borderRadius: "4px",
+            }}
+            href="#contact"
+            onClick={handleClick}
+          >
             Contact Us
           </a>
         </ul>

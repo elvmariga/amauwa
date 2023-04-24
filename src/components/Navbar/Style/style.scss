@@ -14,9 +14,10 @@
     display: flex;
     align-items: center;
     width: 80%;
-    margin: 0 auto;
+    margin: 0 auto ;
     justify-content: space-between;
     padding-top: 1rem;
+    background-color: #3d3d3d;
 
     .toggle-button {
         display: none;
@@ -24,10 +25,11 @@
 
       
 .links{
-
+margin-right: 1rem;
     ul {
             display: flex;
             justify-content: space-between;
+            align-items: center;
             gap: 2rem;
     
             a {

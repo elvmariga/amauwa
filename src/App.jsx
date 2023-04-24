@@ -11,22 +11,30 @@ import Shop from './components/Shop/Shop';
 import Testimony from './components/Testimony/Testimony';
 import Contact from './components/Contact/Contact';
 import Hero from './components/Hero/Hero';
+import plant from './plants.svg';
+import mobileplant from "./mobileplant.svg";
 
 
 function App() {
   return (
-    <div>
-      <Hero />
+    <div style={{ height: "100vh", display: "grid", justifyContent: "center" }}>
+      {/* <Hero />
       <About />
 
       <WhatWeOffer />
-      {/* <Cleaning/> */}
+      <Cleaning/>
 
       <Gallery />
       <OurProcess />
       <Shop />
       <Testimony />
-      <Contact />
+      <Contact /> */}
+      {/* <div>WE ARE COMING SOON!!</div> */}
+      <div>
+        <img className="tablet-image" src={plant} alt="" />
+        <img className="mobile-image"  src={mobileplant} alt="" />
+      </div>
+      <div></div>
     </div>
   );
 }

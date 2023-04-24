@@ -12,11 +12,15 @@ const About = () => {
 
           <p>
             Transform your outdoor space into a breathtaking oasis with Amauwa!
-            As the leading provider of landscaping services in Nairobi, we're
-            dedicated to creating unique and sustainable designs that will leave
-            a long-lasting impression. Contact us today to make your landscaping
-            dreams a reality!
+            {/* <p>
+              {" "}
+              As the leading provider of landscaping services in Nairobi, we're
+              dedicated to creating unique and sustainable designs that will
+              leave a long-lasting impression.{" "}
+            </p> */}
           </p>
+          <p> Contact us today to make your landscaping dreams a reality!</p>
+
           <GetQuote />
         </div>
         <div className="aboutdetails">
@@ -30,15 +34,17 @@ const About = () => {
             in the industry, we pride ourselves on delivering exceptional
             results and outstanding customer service. Our landscaping team is
             made up of skilled professionals who have a passion for creating
-            beautiful and functional outdoor spaces. From designing and
-            installing new landscapes to maintaining existing ones, we are
-            dedicated to ensuring that our clients' properties look their best
-            all year round. Additionally, our cleaning services team uses the
-            latest techniques and equipment to provide thorough and efficient
-            cleaning solutions, leaving your home or office spotless and
-            refreshed. We strive to exceed our clients' expectations with every
-            project we undertake, and we are committed to building long-lasting
-            relationships based on trust and quality service.
+            beautiful and functional outdoor spaces.
+          </p>
+          <p>
+            From designing and installing new landscapes to maintaining existing
+            ones, we are dedicated to ensuring that our clients' properties look
+            their best all year round. Additionally, our cleaning services team
+            uses the latest techniques and equipment to provide thorough and
+            efficient cleaning solutions, leaving your home or office spotless
+            and refreshed. We strive to exceed our clients' expectations with
+            every project we undertake, and we are committed to building
+            long-lasting relationships based on trust and quality service.
           </p>
         </div>
       </div>
