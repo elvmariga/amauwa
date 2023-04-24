@@ -30,9 +30,9 @@ function App() {
       <Testimony />
       <Contact /> */}
       {/* <div>WE ARE COMING SOON!!</div> */}
-      <div>
+      <div className="image-container ">
         <img className="tablet-image" src={plant} alt="" />
-        <img className="mobile-image"  src={mobileplant} alt="" />
+        <img className="mobile-image" src={mobileplant} alt="" />
       </div>
       <div></div>
     </div>
