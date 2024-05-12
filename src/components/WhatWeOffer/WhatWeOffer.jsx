@@ -36,7 +36,7 @@ return (
           offer a wide range of services to help you achieve the garden of your
           dreams. Check out our full list of other landscaping services below!
         </p>
-        <ul>
+{/*         <ul>
           <li>
             <img src={Tick} alt="checkbox" /> Potting
           </li>
@@ -52,7 +52,7 @@ return (
           <li>
             <img src={Tick} alt="checkbox" /> Cutting edges
           </li>
-        </ul>
+        </ul> */}
       </div>
       <div>
         <GetQuote />
