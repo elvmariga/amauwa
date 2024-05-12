@@ -18,7 +18,7 @@ import mobileplant from "./mobileplant.svg";
 function App() {
   return (
     <div style={{ height: "100vh", display: "grid", justifyContent: "center" }}>
-      {/* <Hero />
+      <Hero />
       <About />
 
       <WhatWeOffer />
@@ -28,12 +28,12 @@ function App() {
       <OurProcess />
       <Shop />
       <Testimony />
-      <Contact /> */}
+      <Contact />
       {/* <div>WE ARE COMING SOON!!</div> */}
-      <div className="image-container ">
+{/*       <div className="image-container ">
         <img className="tablet-image" src={plant} alt="" />
         <img className="mobile-image" src={mobileplant} alt="" />
-      </div>
+      </div> */}
       <div></div>
     </div>
   );
